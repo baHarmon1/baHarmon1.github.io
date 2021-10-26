@@ -7,6 +7,10 @@ body {
 
 /* navbar
     Pasture of Dreams color pallette from Canva
+    Mauve #D3B1C2
+    Lavender #C197D2
+    Black
+    Orchid #613659
  */
 
 .container {
@@ -68,4 +72,29 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+
+/* End of navbar */
+
+main {
+    background-color: #D3B1C2;
+}
+
+#home {
+    position: relative;
+}
+
+#welcomeBlurb {
+    color: #613659;
+    text-shadow: 1px 1px #3b2136;
+    margin: 0%;
+    position: absolute;
+    bottom: 50%;
+    right: 40%;
+}
+
+.codeText {
+    color: grey;
+    font-style: italic;
 }
