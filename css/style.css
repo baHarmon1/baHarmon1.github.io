@@ -115,17 +115,34 @@ h3 {
 
 /* Image */
 
-.imageContainer {
+.imageContainer1 {
     width: 200px;
     height: 200px;
     float: left;
 }
 
-.imageContainer img {
+.imageContainer1 img {
     width: 75%;
     height: auto;
     margin-left: 15px;
+    border: 2px solid black;
 }
+
+.imageContainer2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.imageContainer2 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 15px;
+    border: 2px solid black;
+}
+
+
+/* end image */
 
 .blurb {
     text-align: center;
@@ -137,4 +154,16 @@ h3 {
     width: 40%;
     height: 50%;
     margin: 0px;
+}
+
+.aboutMeInfo2 {
+    width: 40%;
+    height: 50%;
+    margin: 0px;
+    float: right;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-evenly;
 }
