@@ -1,16 +1,21 @@
 body {
     padding: 0%;
     margin: 0%;
-    background-color: grey;
+    background-color: black;
 }
 
 
 /* navbar
-    Pasture of Dreams color pallette from Canva
-    Mauve #D3B1C2
-    Lavender #C197D2
-    Black
-    Orchid #613659
+    color palette
+    #d1b58d
+    #87565c
+    #4a2d49
+    #51445e
+    #5d5c74
+    #251725
+
+
+
  */
 
 .container {
@@ -19,7 +24,7 @@ body {
 }
 
 header {
-    background-color: #613659;
+    background-color: #51445e;
     font-size: 24px;
 }
 
@@ -49,8 +54,8 @@ nav li {
 }
 
 nav a {
-    color: #613659;
-    text-shadow: 1.5px 1px black;
+    color: #87565c;
+    text-shadow: 1.5px 1px #251725;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -78,7 +83,11 @@ nav a:hover::before {
 /* End of navbar */
 
 main {
-    background-color: #D3B1C2;
+    background-color: #4a2d49;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
 }
 
 #home {
@@ -86,8 +95,8 @@ main {
 }
 
 #welcomeBlurb {
-    color: #613659;
-    text-shadow: 1px 1px #3b2136;
+    color: #87565c;
+    text-shadow: 1px 1px black;
     margin: 0%;
     position: absolute;
     bottom: 50%;
@@ -95,6 +104,37 @@ main {
 }
 
 .codeText {
-    color: grey;
+    color: #d1b58d;
     font-style: italic;
+}
+
+h3 {
+    margin: 0%;
+}
+
+
+/* Image */
+
+.imageContainer {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.imageContainer img {
+    width: 75%;
+    height: auto;
+    margin-left: 15px;
+}
+
+.blurb {
+    text-align: center;
+    color: #87565c;
+    text-shadow: 1px 1px black;
+}
+
+.aboutMeInfo1 {
+    width: 40%;
+    height: 50%;
+    margin: 0px;
 }
